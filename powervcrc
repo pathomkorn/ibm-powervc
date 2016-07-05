@@ -1,0 +1,9 @@
+export OS_USERNAME=root
+export OS_PASSWORD=${powervc_password}
+export OS_TENANT_NAME=ibm-default
+export OS_AUTH_URL=https://${powervc_server}:5000/v3/
+export OS_IDENTITY_API_VERSION=3
+export OS_CACERT=/etc/pki/tls/certs/powervc.crt
+export OS_REGION_NAME=RegionOne
+export OS_USER_DOMAIN_NAME=Default
+export OS_PROJECT_DOMAIN_NAME=Default
